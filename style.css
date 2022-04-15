@@ -1,4 +1,4 @@
-.container1 {
+.header .container1 {
     display: flex;
     background-color: #1F2937;
     color: #f9faf8;
@@ -53,12 +53,22 @@
     justify-content: right;
 }
 
-button {
+.header button {
     width: 100px;
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 7px;
     border-color: #3882F6;
+}
+
+.call button {
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 7px;
+    border-color: #ffffff;
+    font-weight: bold;
 }
 
 
@@ -139,4 +149,43 @@ a {
     font-size: 30px;
     font-weight: bold;
     text-align: right;
+    color: #3b4d66;
+}
+.box {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 200px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.call .container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.callHero {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
